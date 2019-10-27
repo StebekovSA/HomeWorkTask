@@ -17,7 +17,7 @@ public class Warrior {
 
     public void fight(Warrior enemy) {
         double k = Math.random();
-        while (enemy.health <= 0 && this.health <= 0) {
+        while (enemy.health > 0 && this.health > 0) {
             if (k > 0.5) {
                 this.health -= enemy.damage;
             } else {

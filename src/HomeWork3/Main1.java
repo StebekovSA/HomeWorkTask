@@ -9,7 +9,7 @@ public class Main1 {
         Wood wood1 = new Wood();
 
 
-
+        // не считает яблоки
         Garden garden = new Garden();
         garden.addWood(wood1);
 
